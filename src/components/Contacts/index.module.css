@@ -1,0 +1,12 @@
+.contacts {
+  margin: 0 auto;
+  max-width: max-content;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 555px;
+  margin: 0 auto;
+  box-shadow: rgb(155, 245, 240) 33px 33px 88px 33px;
+}

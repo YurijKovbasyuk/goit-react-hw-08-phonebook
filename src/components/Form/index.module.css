@@ -1,0 +1,29 @@
+.input {
+  width: 180px;
+  padding: 5px;
+  display: block;
+}
+
+.form {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 30px;
+  border-radius: 3px;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: rgb(100 240 245) 33px 33px 99px;
+}
+.button {
+  font-size: 10px;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  background-color: rgb(0, 247, 255);
+  width: 100px;
+  padding: 10px 20px;
+  margin: 20px;
+}

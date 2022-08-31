@@ -1,0 +1,9 @@
+.userMenu {
+	position: absolute;
+    top: 0px;
+    right: 0px;
+	font-size: 12px;
+    width: 150px;
+    overflow: hidden;
+    
+}
