@@ -2,8 +2,8 @@ import { Button, Input, InputLabel } from '@mui/material';
 import { Fragment, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { useSignUpMutation } from 'redux/loginApi';
-import * as actions from 'redux/phonebook-actions';
+import { useSignUpMutation } from 'redux/Auth/loginApi';
+import * as actions from 'redux/Contacts/phonebook-actions';
 import styles from '../Login/index.module.css';
 
 const Registration = () => {

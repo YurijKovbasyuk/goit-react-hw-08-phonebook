@@ -2,7 +2,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import { Button, Input, TableCell, TableRow } from '@mui/material';
 import PropsTypes from 'prop-types';
 import { useState } from 'react';
-import { useDeleteContactMutation } from 'redux/rtk';
+import { useDeleteContactMutation } from 'redux/Contacts/rtk';
 
 const Row = ({ row }) => {
   const [deleteContact, { isLoading }] = useDeleteContactMutation();

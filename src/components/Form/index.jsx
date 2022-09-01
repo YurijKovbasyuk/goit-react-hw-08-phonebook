@@ -1,6 +1,9 @@
 import { Button, Input } from '@mui/material';
 import { useState } from 'react';
-import { useAddContactsMutation, useGetContactsQuery } from 'redux/rtk';
+import {
+  useAddContactsMutation,
+  useGetContactsQuery,
+} from 'redux/Contacts/rtk';
 import styles from '../Form/index.module.css';
 
 const Form = () => {

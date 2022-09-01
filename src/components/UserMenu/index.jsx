@@ -2,8 +2,8 @@ import Button from '@mui/material/Button';
 import { Fragment } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { useLogOutMutation } from 'redux/loginApi';
-import * as actions from 'redux/phonebook-actions';
+import { useLogOutMutation } from 'redux/Auth/loginApi';
+import * as actions from 'redux/Contacts/phonebook-actions';
 import styles from '../UserMenu/index.module.css';
 
 const UserMenu = () => {

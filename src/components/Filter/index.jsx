@@ -1,7 +1,7 @@
 import { Input } from '@mui/material';
 import { Fragment } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import * as actions from 'redux/phonebook-actions';
+import * as actions from 'redux/Contacts/phonebook-actions';
 import styles from '../Filter/index.module.css';
 
 const Filter = () => {

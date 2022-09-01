@@ -8,10 +8,10 @@ import {
   REGISTER,
   REHYDRATE,
 } from 'redux-persist';
-import { loginReducer } from '../redux/loginApi';
-import { contactsApi } from '../redux/rtk';
-import contactsReducer from './phonebook-reducer';
-import user from './user';
+import { loginReducer } from './Auth/loginApi';
+import { contactsApi } from './Contacts/rtk';
+import contactsReducer from './Contacts/phonebook-reducer';
+import user from './Auth/user';
 
 const rootReducer = combineReducers({
   contacts: contactsReducer,
