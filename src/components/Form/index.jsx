@@ -1,9 +1,7 @@
-import styles from '../Form/index.module.css';
+import { Button, Input } from '@mui/material';
 import { useState } from 'react';
-import { nanoid } from 'nanoid';
-import { useAddContactsMutation, useGetContactsQuery } from '../../redux/rtk';
-import Button from '@mui/material/Button';
-import { Input } from '@mui/material';
+import { useAddContactsMutation, useGetContactsQuery } from 'redux/rtk';
+import styles from '../Form/index.module.css';
 
 const Form = () => {
   const [name, setName] = useState('');
@@ -19,8 +17,7 @@ const Form = () => {
     });
 
     if (!bool) {
-      let loginInputId = nanoid();
-      addItem({ id: loginInputId, name: name, number: number });
+      addItem({ name: name, number: number });
       reset();
     } else alert(name + ' is already exists');
   };

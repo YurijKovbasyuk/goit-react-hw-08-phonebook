@@ -1,13 +1,10 @@
-import { Fragment } from 'react';
-import InputLabel from '@mui/material/InputLabel';
-import Input from '@mui/material/Input';
-import Button from '@mui/material/Button';
-import styles from '../Login/index.module.css';
-import { useState } from 'react';
-import { useLogInMutation } from 'redux/loginApi';
+import { Button, Input, InputLabel } from '@mui/material';
+import { Fragment, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import * as action from '../../redux/phonebook-actions';
 import { useNavigate } from 'react-router-dom';
+import { useLogInMutation } from 'redux/loginApi';
+import * as action from 'redux/phonebook-actions';
+import styles from '../Login/index.module.css';
 
 const Login = () => {
 	const [email, setEmail] = useState('');
